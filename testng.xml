@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/���/IdeaProjects/UI_framework_Practice">
+        <classes>
+            <class name="org.example.Demo1">
+                <methods>
+                    <include name="testDemo1"/>
+                </methods>
+            </class>
+            <class name="practice.UserRegistrationTest">
+                <methods>
+                    <include name="registerUser"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
