@@ -15,7 +15,10 @@ public class FluentWaitDemo extends BasedTest {
 
     @Test
     public static void test1() throws InterruptedException {
-      driver.navigate().to ("https://seleniumpractise.blogspot.com/search?q=explicit+wait");
+      driver.navigate().to ("" +
+              "" +
+              "" +
+              "");
 
       driver.findElement(By.xpath("//button[text()='Click me to start timer']")).click();
 //      driver.findElement(By.xpath("//p[text()='WebDriver']")).click();
